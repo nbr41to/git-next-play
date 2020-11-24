@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Button from './Button_nob'
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
 
       <h1 className={styles.title}>
         ようこそNextjs
-        </h1>
+      </h1>
 
+      <Button_nob />
     </div>
   )
 }
