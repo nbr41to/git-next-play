@@ -10,13 +10,17 @@ export default function Home() {
       </Head>
 
       <header className="header">
-      <h1 className={styles.title}>
-        ようこそNextjs
-      </h1>
+        <h1>
+          ようこそNextjs
+        </h1>
       </header>
-      
-      <footer>footerです</footer>
-      
+
+      <footer className="footer">
+        <small>
+          copyright @progLearning
+        </small>
+      </footer>
+
     </div>
   )
 }
