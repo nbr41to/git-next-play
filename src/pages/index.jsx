@@ -9,10 +9,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className="header">
       <h1 className={styles.title}>
         ようこそNextjs
       </h1>
-
+      </header>
+      
+      <footer>footerです</footer>
+      
     </div>
   )
 }
