@@ -4,11 +4,12 @@ import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
-  console.log(router)
+  console.log(router.pathname)
   return (
     <>
       <Component {...pageProps} />
       <button onClick={() => router.push('/')}>戻る</button>
+      <button onClick={() => router.back()}>前へ戻る</button>
     </>
   )
 }
