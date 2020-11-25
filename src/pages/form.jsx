@@ -2,8 +2,8 @@ import React from 'react'
 import Input from "../components/Input"
 
 const Form = () => {
-    const submit = () => {
-        console.log()
+    const submit = (name, email, address, birthday, comment) => {
+        console.log(`名前：${name} メール：${email} 住所：${address} 誕生日：${birthday} コメント：${comment}`)
     }
 
     return (
