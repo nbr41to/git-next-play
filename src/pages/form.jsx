@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Form = () => {
+  const onSubmit = () => {
+    console.log({})
+  }
   return (
     <div>
       <h1>お問い合わせ</h1>
@@ -16,7 +19,6 @@ const Form = () => {
         <br />
         <button>送信</button>
       </form>
-
     </div>
   )
 }
